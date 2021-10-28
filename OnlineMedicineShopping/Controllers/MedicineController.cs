@@ -69,8 +69,8 @@ namespace OnlineMedicineShopping.Controllers
         [HttpGet]
         public async Task<IActionResult> OrderInfo(int userId)
         {
-            var order = await _medicineServices.OrderByuserId(userId);
-            return View(order);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Book a doctor appointment
